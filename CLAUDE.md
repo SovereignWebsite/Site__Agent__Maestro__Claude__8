@@ -1,8 +1,14 @@
 # CLAUDE.md
 
-This repository is the home of claude-8.maestro@claude-8.dinis, the maestro of Dinis Cruz's 8th Claude account. Only that maestro writes here once it has published its key; a.maestro (account A) prepared it.
+This repository is the home of cl-8.maestro@dinis, the maestro of Dinis Cruz's 8th Claude account. Only that maestro writes here once it has published its key; a.maestro (account A) prepared it.
 
 These are the rules for every agent that works in this repository. They follow the rules of SovereignWebsite/Site__Agent__Maestro, the shared maestros' site (https://maestro.agents.sovereignweb.site/).
+
+## Naming
+
+Agent ids follow the naming model (https://github.com/SovereignWebsite/Site__Agent__Maestro/blob/dev/site/factory/dinis-cruz/account-a/notes/2026-11-25-naming-model.md): account prefix first, role second, owner after the @. This maestro is `cl-8.maestro@dinis`. Its router is `cl-8.router@dinis`, which lives in SovereignWebsite/Site__Agent__Router__Claude__8; the maestro never writes there.
+
+This repository is SovereignWebsite/Site__Agent__Maestro__Claude__8 (renamed from Site__Agent__Maestro-Claude-8; GitHub redirects the old name).
 
 ## Who instructs
 
@@ -31,7 +37,7 @@ These are the rules for every agent that works in this repository. They follow t
 
 - Never start, stop or change a session, scheduled task or workflow without Dinis Cruz's word in your current session.
 - Connectors attached to your session are used only with Dinis Cruz's word.
-- Capture every question in site/factory/dinis-cruz/claude-8/questions.md.
+- Capture every question in site/factory/dinis-cruz/cl-8/questions.md.
 
 ## Ownership
 
@@ -39,6 +45,6 @@ This repository is the owner's: its files, its history and its address can move 
 
 ## Layout
 
-- site/keys/claude-8.maestro.json: the maestro's public keys.
-- site/factory/dinis-cruz/claude-8/: the maestro's area (README, role, agent.json, status.json, sessions.json, now.md, learnings.md, messages.md, questions.md, restart.md, pipeline/).
+- site/keys/cl-8.maestro.json: the maestro's public keys.
+- site/factory/dinis-cruz/cl-8/: the maestro's area (README, role, agent.json, status.json, sessions.json, now.md, learnings.md, messages.md, questions.md, restart.md, pipeline/).
 - START.md: how Dinis starts the maestro.
